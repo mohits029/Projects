@@ -1,0 +1,342 @@
+*{
+    /* font-size: 100%; */
+}
+
+
+.description-bar{
+    /* border: 2px solid pink; */
+    display: flex;
+    justify-content: space-between;
+    
+    border-bottom: 1px solid gray;
+    background: whitesmoke;
+    
+}
+.description-bar a{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: gray;
+    text-decoration: none;
+}
+
+.overview, .share{
+    /* border: 2px solid red; */
+    margin: 1rem 4rem;
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    
+}
+
+
+.description-bar ul li:hover{
+    border-bottom: 2px solid green;
+    color: rgb(57, 57, 57);
+}
+
+
+.main-box{
+    /* border: 2px solid red; */
+    margin: 6rem 15em;
+    display: flex;
+}
+
+.left-half{
+    width: 50%;
+    /* border: 2px solid green; */
+}
+.right-half{
+    width: 50%;
+    /* border: 2px solid green; */
+    
+}
+
+.main-box h2{
+    /* width: 50%; */
+    padding: 1rem 5rem;
+    font-weight: bolder;
+    font-family: Helvetica, sans-serif;
+    font-size: 3.4rem;
+    /* border: 2px solid black; */
+}
+
+.main-box .seller{
+    /* border: 2px solid red; */
+    display: flex;
+    font-size: 2.4rem;
+    align-items: center;
+    gap: 10px;
+    padding: 2rem 9rem;
+}
+.main-box .seller h3{
+    font-weight: bold;
+    color: rgb(66, 66, 66);
+}
+
+.main-box .seller a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+.main-box .seller img{
+    border: 1px solid gray;
+    border-radius: 100%;
+    
+}
+
+.product-img{
+    width: 30vw;
+    /* border: 2px solid red; */
+    margin: 0px auto;
+}
+
+.product-img img{
+    width: 100%;
+}
+
+.desc-h2{
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 4rem;
+}
+.about-gig p{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: gray;
+    padding: 0px 4rem;
+}
+
+.about-gig ul{
+    font-size: 2.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: gray;
+    padding: 0px 4rem;
+    /* border: 2px solid red; */
+    
+}
+
+.about-seller{
+    /* border: 2px solid red; */
+}
+
+.about-seller p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(89, 89, 89);
+}
+
+.seller-desc{
+    border: 2px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.desc{
+    /* border: 2px solid red; */
+    width: 60%;
+}
+
+.desc button{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 0.5rem 1.4rem;
+    border: none;
+    outline: 1px solid darkblue;
+    border-radius: 5px;
+}
+.desc button:hover{
+    background: green;
+    color: white;
+}
+
+.seller-img{
+    width: 40%;
+    /* border: 2px solid red; */
+}
+.seller-img img{
+    width: 100%;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.table td, .table th{
+    font-size: 1.6rem;
+
+}
+.table td i{
+    font-size: 1.9rem;
+}
+
+.table button{
+    font-weight: 600;
+    padding: 0.3rem 1.8rem;
+    border: none;
+    border-radius: 2px;
+    background: rgb(2, 146, 47);
+    color: white;
+}
+
+.recomendations .card-wraper{
+    display: flex;
+    /* flex-wrap: */
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.card{
+    min-width: 25rem;
+}
+
+.right-box{
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    position: fixed;
+  top: 12;
+  left: 1;
+  right: 1;
+  margin-right:140px;
+  margin-left: 60px;
+  padding: 2rem;
+   
+    
+}
+
+.right-buttons, .right-box-desc{
+    /* border: 2px solid blue; */
+    width: 100%;
+}
+
+.right-box-desc .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2rem;
+}
+.price h2{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right-buttons{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+.right-box .right-buttons button{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    font-family: 'roboto';
+    padding: 1.4rem 4rem;
+    margin-bottom: 4rem;
+    border: none;
+    outline: 1px solid green;
+    border-radius: 5px;
+    
+
+}
+.active-buttons{
+    background-color: green;
+    color: white;
+}
+
+.right-box-desc{
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.package-desc p{
+    font-size: 1.6rem;
+    padding: 2rem 4rem;
+    font-weight: bold;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-box .right-box-desc ul{
+    /* border: 2px solid red; */
+    padding: 2rem 6rem;
+    font-weight: bolder;
+}
+
+.right-box .right-box-desc li{
+    font-size: 1.6rem;
+}
+
+.right-box-desc button{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 0.5rem;
+    width: 100%;
+    background: green;
+    border-radius: 4px;
+    color: white;
+    /* text-transform: uppercase; */
+    letter-spacing: 1.4px;
+
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    
+  }
+  
+
+.active {
+    display: block;
+  }
+
+
+@media (max-width: 1080px) {
+    .right-half{
+        display: none;
+        
+    }
+    .left-half{
+        width: 100%;
+    }
+    .product-img{
+        width: 50vw;
+        /* border: 2px solid red; */
+    
+    }
+}
+
+@media (max-width: 500px) {
+    .main-box{
+        /* border: 2px solid red; */
+        margin: 6rem 5em;
+    }
+    .main-box h2{
+        font-size: 2.4rem;
+    }
+    
+    .product-img{
+        width: 70vw;
+        /* border: 2px solid red; */
+    
+    }
+    .share{
+        display: flex;
+        flex-direction: column;
+    }
+    .overview, .share{
+        margin: 1rem 1rem;
+    }
+        
+}
+
+.active-box{
+    display: flex;
+}

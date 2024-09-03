@@ -1,0 +1,164 @@
+.main-container{
+    /* border: 2px solid red; */
+    display: flex;
+    
+}
+
+p, li{
+    font-size: 1.6rem;
+}
+
+
+.timing p{
+    font-family: 'roboto';
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgb(69, 69, 69);
+}
+.title h2{
+    font-size: 3.8rem;
+    font-family: 'roboto';
+    color: green;
+}
+.subheading{
+    font-size: 2.8rem;
+    font-weight: bolder;
+    color: rgb(63, 63, 63);
+}
+
+.bold-text{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color: rgb(63, 63, 63);
+}
+
+.left-half{
+    width: 70%;
+    border-right: 2px solid gray;
+    padding: 2rem 14rem;
+}
+.right-half{
+    width: 30%;
+    /* border: 2px solid green; */
+}
+
+.left-half .blog-img{
+    width: 70%;
+    /* border: 2px solid yellow; */
+}
+
+.blog-img img{
+    width: 100%;
+}
+
+.search-bar-outline{
+    border-bottom: 1px solid gray;
+    text-align: center;
+    margin: 3rem auto;
+    padding: 1rem 0px;
+}
+.search-box{
+    /* width: 10rem;
+    height: 2rem; */
+    padding: 0.2rem 0.6rem;
+    font-size: 1.8rem;
+}
+
+.search-btm{
+    font-size: 1.8rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 3px;
+    border: 1px solid green;
+    
+}
+.recent-activity{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.topic-link{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* justify-content: ; */
+    padding: 0px 4rem;
+
+}
+.topic-link a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'roboto';
+    font-weight: 200;
+    outline: 1px solid black;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    background: rgb(51, 51, 51);
+}
+
+.blog-post-message{
+    margin: 2rem 4rem;
+
+}
+.blog-post-message a{
+    text-decoration: none;
+    /* outline: 1px solid darkblue; */
+    /* background: red; */
+}
+
+@media (max-width: 980px) {
+    .left-half{
+        width: 70%;
+
+        padding: 2rem 4rem;
+    }
+}
+@media (max-width:850px) {
+    html{
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 750px) {
+    .main-container{
+        /* border: 2px solid red;
+        display: flex; */
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        
+    }
+    .left-half{
+        width: 90%;
+        border: none;
+        
+        
+    }
+    .right-half{
+        width: 90%;
+        /* border: 2px solid green; */
+    }
+}
+
+@media (max-width: 580px){
+
+    .title h2{
+        font-size: 2.4rem;
+    }
+    
+    .left-half{
+        width: 100%;
+        /* border: 2px solid green;
+        padding: 2rem 14rem; */
+        
+    }
+    .right-half{
+        width: 100%;
+        /* border: 2px solid green; */
+    }
+}
